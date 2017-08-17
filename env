@@ -1,0 +1,24 @@
+## COMMON VALUES FOR LOCALHOST AND HEROKU
+#########################################
+
+LOGIN_SERVER=https://login.salesforce.com
+
+# TODO: What username did your instructor give you for your student ORG?
+USER_NAME=admin@dr.1
+
+# TODO: What password did your instructor give you for your student ORG?
+PASSWORD=password1
+
+## VALUES THAT ONLY APPLY TO LOCALHOST
+######################################
+
+LOCATION=localhost
+
+# TODO: Based on the Connected App you created in Salesforce, what is the Consumer Key?
+CONSUMER_KEY=3MVG9xOCXq4ID1uGyCUrFUvtTbR8JdDsB5.ki0RG8ckJyR5rvlD1lc6sh0B.4Cld0fqraeCfAWIH8uQHkY3PR
+
+# TODO: Based on the Connected App you created in Salesforce, what is the Consumer Secret?
+CONSUMER_SECRET=5492269840818773096
+
+# TODO: Based on the Connected App you created in Salesforce, what is the Callback URL?
+CALLBACK_URL=http://localhost:5000/Callback
