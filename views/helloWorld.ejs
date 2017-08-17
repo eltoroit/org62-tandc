@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="/SLDS/styles/salesforce-lightning-design-system.css" />	
+		<title>Node.JS + Heroku + Salesforce: Hello World</title>
+	</head>
+	<body class="slds-m-around--xx-large">
+		<% include partials/header.ejs %>
+		<div class="slds-m-vertical--large">
+			<% if (locals.dttm) { %>
+				<p>Current Time: <b><%= dttm %></b></p>
+			<% } %>
+		<div>
+		<div class="slds-m-vertical--large">
+			<% if (locals.fname) { %>
+				<p>Hello <b><%= fname %></b>,
+				your fun as a developer really started in
+				<b><%= sfdcStart %></b></p>
+			<% } else { %>
+				<form action="/" method="POST">
+					<table>
+						<tr>
+							<td style="vertical-align:baseline;">
+								<b>First name?</b>
+							</td>
+							<td style="vertical-align:baseline;">
+								<input type="text" name="fname"
+								class="slds-input slds-m-top--small"/>
+							</td>
+						</tr>
+						<tr>
+							<td style="vertical-align:baseline;">
+								<b>Enjoying Salesforce since:</b>
+							</td>
+							<td style="vertical-align:baseline;">
+								<select name="sfdcStart" required="true"
+								class="slds-select slds-m-top--small">
+									<option value="" disabled selected>
+										Please select the year when you started 
+										working with Salesforce technology?
+									</option>
+									<%
+										var last = (new Date().getFullYear());
+										for (var year = 1999; year <= last; year++) {
+									%>
+										<option value="<%= year %>">
+											<%= year %>
+										</option>
+									<% } %>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="Submit" style="width:100%" 
+								class="slds-button--brand slds-m-top--small" />
+							</td>
+						</tr>
+					</table>
+				</form>
+			<% } %>
+		</div>
+	</body>
+</html>
