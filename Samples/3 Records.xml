@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+  <notifications xmlns="http://soap.sforce.com/2005/09/outbound">
+   <OrganizationId>00DV0000006tAkoMAE</OrganizationId>
+   <ActionId>04kV000000001sdIAA</ActionId>
+   <SessionId>00DV0000006tAko!ARAAQBfwEC8tv6dj93jtMZ8AlD0nPIREjuOBGHAozATPd9uiEaXg5btfq.nRgtezI8U6vdr.DnjuMCCYnEAAsMZdZXZ_Ra_j</SessionId>
+   <EnterpriseUrl>https://tandcorg--CodeDev.cs12.my.salesforce.com/services/Soap/c/40.0/00DV0000006tAko</EnterpriseUrl>
+   <PartnerUrl>https://tandcorg--CodeDev.cs12.my.salesforce.com/services/Soap/u/40.0/00DV0000006tAko</PartnerUrl>
+   <Notification>
+    <Id>04lV000000P1qx3IAB</Id>
+    <sObject xsi:type="sf:Campaign" xmlns:sf="urn:sobject.enterprise.soap.sforce.com">
+     <sf:Id>701V0000001wD1dIAE</sf:Id>
+     <sf:ActualCost>1359.0</sf:ActualCost>
+     <sf:CreatedById>00530000005QVgvAAG</sf:CreatedById>
+     <sf:CreatedDate>2017-08-18T01:37:33.000Z</sf:CreatedDate>
+     <sf:Description>Descrition for Campaign #1359</sf:Description>
+     <sf:EndDate>2021-05-17</sf:EndDate>
+     <sf:IsActive>true</sf:IsActive>
+     <sf:Name>Campaign #1359</sf:Name>
+     <sf:OwnerId>00530000005QVgvAAG</sf:OwnerId>
+     <sf:StartDate>2021-05-07</sf:StartDate>
+    </sObject>
+   </Notification>
+   <Notification>
+    <Id>04lV000000P1qxhIAB</Id>
+    <sObject xsi:type="sf:Campaign" xmlns:sf="urn:sobject.enterprise.soap.sforce.com">
+     <sf:Id>701V0000001wD2HIAU</sf:Id>
+     <sf:ActualCost>1399.0</sf:ActualCost>
+     <sf:CreatedById>00530000005QVgvAAG</sf:CreatedById>
+     <sf:CreatedDate>2017-08-18T01:37:33.000Z</sf:CreatedDate>
+     <sf:Description>Descrition for Campaign #1399</sf:Description>
+     <sf:EndDate>2021-06-26</sf:EndDate>
+     <sf:IsActive>false</sf:IsActive>
+     <sf:Name>Campaign #1399</sf:Name>
+     <sf:OwnerId>00530000005QVgvAAG</sf:OwnerId>
+     <sf:StartDate>2021-06-16</sf:StartDate>
+    </sObject>
+   </Notification>
+   <Notification>
+    <Id>04lV000000P1qx5IAB</Id>
+    <sObject xsi:type="sf:Campaign" xmlns:sf="urn:sobject.enterprise.soap.sforce.com">
+     <sf:Id>701V0000001wD1fIAE</sf:Id>
+     <sf:ActualCost>1361.0</sf:ActualCost>
+     <sf:CreatedById>00530000005QVgvAAG</sf:CreatedById>
+     <sf:CreatedDate>2017-08-18T01:37:33.000Z</sf:CreatedDate>
+     <sf:Description>Descrition for Campaign #1361</sf:Description>
+     <sf:EndDate>2021-05-19</sf:EndDate>
+     <sf:IsActive>false</sf:IsActive>
+     <sf:Name>Campaign #1361</sf:Name>
+     <sf:OwnerId>00530000005QVgvAAG</sf:OwnerId>
+     <sf:StartDate>2021-05-09</sf:StartDate>
+    </sObject>
+   </Notification>
+  </notifications>
+ </soapenv:Body>
+</soapenv:Envelope>
