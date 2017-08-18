@@ -1,0 +1,12 @@
+{
+  "name": "ORG62_TandC",
+  "description": "This web service receives Campaign information from ORG62 and sends it to the T&C ORG",
+  "repository": "",
+  "logo": "",
+  "keywords": [
+  	"T&C",
+    "ORG62",
+    "Outbound Message"
+	],
+  "image": ""
+}
