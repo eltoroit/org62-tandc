@@ -11,6 +11,6 @@ ws.get('/', function(reqHTTP, resHTTP) {
 	resHTTP.end();
 });
 
-ws.post('/', webServer.parseXML, function(reqHTTP, resHTTP, next) {
+ws.post('/obm', webServer.parseXML, function(reqHTTP, resHTTP, next) {
 	handleOBM.processWS(reqHTTP, resHTTP, sfdc);
 });
