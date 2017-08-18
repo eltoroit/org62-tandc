@@ -1,2 +1,3 @@
 LOCATION=localhost
 APEX_SITE_IMPORT_OBM=https://codedev-trainingmaterials.cs12.force.com/services/apexrest/HandleOBM/v1.0
+VALIDATOR=STRING_USED_TO_VALIDATE_MESSAGE
