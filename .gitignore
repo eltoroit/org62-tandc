@@ -1,1 +1,5 @@
 .DS_Store
+<<<<<<< HEAD
+=======
+node_modules/
+>>>>>>> ca3f83c... Ignoring files
