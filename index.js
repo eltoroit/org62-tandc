@@ -7,6 +7,7 @@ const handleOBM = require('./lib/HandleOBM');
 const sfdc = require('./lib/Salesforce');
 
 ws.get('/', function(reqHTTP, resHTTP) {
+	console.log('Verbose: ' + process.env.VERBOSE);
 	if (process.env.VERBOSE) {
 		console.log("GET request on root... ignored");
 	}
