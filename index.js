@@ -15,6 +15,7 @@ ws.get('/', function(reqHTTP, resHTTP) {
 });
 
 ws.post('/obm', webServer.parseXML, function(reqHTTP, resHTTP, next) {
+	console.log("Verbose: " + process.env.VERBOSE);
 	if (process.env.VERBOSE) {
 		console.log("POST request on /obm... processing");
 	}
