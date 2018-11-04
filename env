@@ -1,8 +1,8 @@
 LOCATION=localhost
-# APEX_SITE_IMPORT_OBM1=https://trainingmaterials.secure.force.com/services/apexrest/HandleOBM/v1.0
-APEX_SITE_IMPORT_OBM1=https://codefull-trainingmaterials.cs19.force.com/services/apexrest/HandleOBM/v1.0
-#APEX_SITE_IMPORT_OBM2=https://codefull-trainingmaterials.cs19.force.com/services/apexrest/HandleOBM/v2.0
+APEX_SITE_IMPORT_OBM1=https://trainingmaterials.secure.force.com/services/apexrest/HandleOBM/v1.0
+# APEX_SITE_IMPORT_OBM1=https://codefull-trainingmaterials.cs19.force.com/services/apexrest/HandleOBM/v1.0
+APEX_SITE_IMPORT_OBM2=https://codefull-trainingmaterials.cs19.force.com/services/apexrest/HandleOBM/v2.0
 VALIDATOR=STRING_USED_TO_VALIDATE_MESSAGE
-# These "boolean" attriutes are true if they are defined regardless of their value ;-) 
+# These "boolean" attributes are true if they are defined regardless of their value ;-) 
 LOG_INFO=true
 #LOG_MAX=true
